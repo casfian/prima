@@ -6,11 +6,13 @@ class News extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: DefaultTabController(
         length: 2,
         child: Scaffold(
           appBar: AppBar(
             title: Text('NEWS & EVENTS'),
+            backgroundColor: Colors.blue[900],
             bottom: TabBar(
               tabs: [
                 Tab(

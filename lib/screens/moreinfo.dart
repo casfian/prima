@@ -6,6 +6,7 @@ class MoreInfo extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('More Info'),
+        backgroundColor: Colors.blue[900],
       ),
       drawer: Drawer(
         child: ListView(

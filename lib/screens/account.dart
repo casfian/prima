@@ -7,6 +7,7 @@ class Account extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text('Account'),
+          backgroundColor: Colors.blue[900],
         ),
         body: Center(
           child: Container(
