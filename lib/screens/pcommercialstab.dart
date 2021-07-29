@@ -12,8 +12,6 @@ class PCommercialsTab extends StatefulWidget {
 class _PCommercialsTabState extends State<PCommercialsTab> {
   final _controller = PageController();
 
-  int counter = 0;
-
   List<Widget> pages = [
     // Container(
     //   color: Colors.red,
