@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:page_indicator/page_indicator.dart';
  
-class PHomesTab extends StatelessWidget {
+class PHomesTab extends StatefulWidget {
+  @override
+  _PHomesTabState createState() => _PHomesTabState();
+}
+
+class _PHomesTabState extends State<PHomesTab> {
   final _controller = PageController();
 
   List<Widget> pages = [
